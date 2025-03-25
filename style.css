@@ -13,10 +13,10 @@
   font-size: 62.5%;
 
   --bg-color: #000000;
-  --second-bg-color: #C94C16;
+  --second-bg-color: #532F8B;
   --text-color: #ffffff;
-  --second-text-color: #FF4D00;
-  --card-bg-color: hsla(18, 80%, 44%, 0.5);
+  --second-text-color: #5B3499;
+  --card-bg-color: #442773;
 
   --first-font: 'Lato', sans-serif;
   --second-font: 'Inter', sans-serif;
@@ -31,9 +31,9 @@
   --bg-image-home: url("./img/bg-home-dark-3.jpg");
   --position-bg-home: 15rem -7rem;
   --logo-github: url("./img/logo-github-white.svg");
-  --logo-github-hover: url("./img/logo-github-orange.svg");
+  --logo-github-hover: url("img/barra-github.svg");
   --logo-linkedin: url("./img/logo-linkedin-white.svg");
-  --logo-linkedin-hover: url("./img/logo-linkedin-orange.svg");
+  --logo-linkedin-hover: url("img/barra-linkedin.svg");
   
   --button-text-color-hover: #FFFFFF;
 
@@ -62,9 +62,9 @@
   --bg-image-home: url("./img/bg-home-light-3.avif");
   --position-bg-home: -70rem 0;
   --logo-github: url("./img/logo-github-black.svg");
-  --logo-github-hover: url("./img/logo-github-orange.svg");
+  --logo-github-hover: url("img/barra-github.svg");
   --logo-linkedin: url("./img/logo-linkedin-black.svg");
-  --logo-linkedin-hover: url("./img/logo-linkedin-orange.svg");
+  --logo-linkedin-hover: url("img/barra-linkedin.svg");
 
   --button-text-color-hover: #000000;
 
@@ -498,7 +498,7 @@ img.balls {
 
 .card:hover {
   cursor: pointer;
-  background-color: #532F8B;
+  background-color: #7344bf;
   transform: translateY(-10px);
 }
 
@@ -657,7 +657,7 @@ img.balls {
 
 /* --------------- contact ----------------------- */
 .contact {
-  background-image: var(--bg-contact);
+  background-image: url(img/form.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -673,6 +673,7 @@ img.balls {
   line-height: 1;
   text-align: initial;
   font-size: 40px;
+  color: #FFFFFF;
 }
 
 .contact-form form {
